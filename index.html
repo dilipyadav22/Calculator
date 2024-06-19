@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="card">
+        <h1 id="titel">Calculator</h1>
+        <p id="alert" ></p>
+        <input readonly="true " type="text" onclick="result()" name="result" id="result" />
+
+        <div id="calc-box">
+          <button id="cl-btn" onclick="calBtn(7)"  >7</button>
+          <button id="cl-btn" onclick="calBtn(8)" >8</button>
+          <button id="cl-btn" onclick="calBtn(9)" >9</button>
+          <button id="cl-btn" onclick="calBtn('*')" >*</button>
+
+          <button id="cl-btn" onclick="calBtn(4)" >4</button>
+          <button id="cl-btn" onclick="calBtn(5)" >5</button>
+          <button id="cl-btn" onclick="calBtn(6)" >6</button>
+          <button id="cl-btn" onclick="calBtn('-')" >-</button>
+
+          <button id="cl-btn" onclick="calBtn(1)" >1</button>
+          <button id="cl-btn" onclick="calBtn(2)" >2</button>
+          <button id="cl-btn" onclick="calBtn(3)" >3</button>
+          <button id="cl-btn" onclick="calBtn('/')" >/</button>
+
+          <button id="cl-btn" onclick="calBtn(0)" >0</button>
+          <button id="cl-btn" onclick="calBtn('.')" >.</button>
+          <button id="cl-btn" onclick="cal('=')" >=</button>
+          <button id="cl-btn" onclick="calBtn('+')" >+</button>
+
+          <button id="cl-btn" onclick="clr('c')" >C</button>
+          <button id="cl-btn" onclick="even('c')" >Even</button>
+          <button id="cl-btn" onclick="odd('c')" >Odd</button>
+
+
+
+        </div>
+      </div>
+    </div>
+<script src="./main.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,57 @@
+body,html{
+    padding: 0;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+#container{
+       height: 100vh;
+       background-color: cyan;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+
+#card{
+    width: 25%;
+    /* height: 500px; */
+    background-color: wheat;
+    border-top: 30px solid red;
+    border-bottom: 20px solid red;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    
+}
+#titel{
+    text-align: center;
+    color: rgb(25, 22, 22);
+}
+#result{
+    border: 2px solid saddlebrown;
+    padding: 10px;
+    border-radius: 4px;
+}
+#calc-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding-top: 10px;
+    width: calc(100% - 16px);
+    padding-left: 30px;
+
+}
+
+#cl-btn{
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(228, 54, 54);
+    color: white;
+}
+#cl-btn:hover{
+    background-color: black;
+    transition: 0.6s;
+}
